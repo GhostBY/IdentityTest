@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using DAL.Identity;
 namespace DAL.Repositories
 {
-    class IdentityUnitOfWork : IUnitOfWork
+    public class IdentityUnitOfWork : IUnitOfWork
     {
         private ApplicationContext db;
         private ApplicationRoleManager roleManager;
